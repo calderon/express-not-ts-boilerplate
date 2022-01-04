@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/calderon/whatweatherlike.git"
+    "url": "git+https://github.com/calderon/express-not-ts-boilerplate.git"
   },
   "keywords": [],
   "author": "Daniel Calderón",
@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/calderon/whatweatherlike/issues"
   },
-  "homepage": "https://github.com/calderon/whatweatherlike#readme",
+  "homepage": "https://github.com/calderon/express-not-ts-boilerplate#readme",
   "devDependencies": {
     "eslint": "^8.6.0",
     "jest": "^27.4.5",
