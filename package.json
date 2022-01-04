@@ -1,0 +1,35 @@
+{
+  "name": "ExpressNoTSBoilerplate",
+  "version": "0.0.1",
+  "description": "Express No Typescript boilerplate",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "node server",
+    "test": "jest --detectOpenHandles --passWithNoTests",
+    "test:watch": "npm test --watchAll",
+    "format": "prettier --write '*.js'",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calderon/whatweatherlike.git"
+  },
+  "keywords": [],
+  "author": "Daniel Calderón",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calderon/whatweatherlike/issues"
+  },
+  "homepage": "https://github.com/calderon/whatweatherlike#readme",
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "jest": "^27.4.5",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "supertest": "^6.1.6"
+  }
+}
